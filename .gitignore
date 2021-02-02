@@ -1,0 +1,8 @@
+.ipynb_checkpoints*
+*.aux
+*.fls
+*.sty
+*.log
+*.synctex.gz
+*.fdb_latexmk
+*.swp
