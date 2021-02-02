@@ -11,7 +11,7 @@ You can tag your code either on GitHub or via the command line.
 ## Tagging via GitHub (recommended)
 In the Code tab in GitHub, select "tags" below the header tabs or "Create a New Release" in the right panel. See the example below:
 
-![release](release.png)
+![release](../images/release.png)
 
 ## Tagging via Command Line
 Alternatively, you can tag via the command line:

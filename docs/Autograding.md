@@ -70,16 +70,16 @@ often be grouped into different test sets, as shown. These may also contain an `
 ## Running Your Tests
 ### Autograder on GitHub
 Each time you push to your `main` branch, it will trigger a GitHub action that will run your code through the test set. You can check the status of your tests by selecting the "Actions" tap in GitHub (see image below).
-![Action](GHActions.png)
+![Action](../images/GHActions.png)
 
 If you select a "CI" workflow and then select a "Job" on the left it will show the the results of your test in the main window. You can scroll through the "Run julia-actions/julia-runtest@latest" section it will show the terminal output of the tests, and will show you any errors it encountered or any tests that failed.
 
-![CI](CIAction.png)
+![CI](../images/CIAction.png)
 
 ### Running the tests locally
 To run the tests on your computer you can open a REPL in the root directory of your homework repository. Enter the package manager using `]` and then activate the current environment using `activate .`. You can then run your tests using `test HW`, replacing `HW` with the name of the module in `src` (should match the name of the repository). 
 
-![tests](runtests.png)
+![tests](../images/runtests.png)
 
 ## Adding More Tests
 If you want to add more tests that will run automatically, feel free to include an extra `@testset` in `runtests.jl`, named "Extra Tests" or something similar. Please do NOT modify or add tests inside of the test sets or test files we provide.
